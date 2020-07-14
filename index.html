@@ -4,39 +4,24 @@
 	<meta charset="utf-8" />
 	<title>图床</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./static/layui/css/layui.css">
-    <link rel="stylesheet" href="./static/css/mystyle.css">
-    <script src="./static/js/jquery.min.js"></script>
-    <script src="./static/js/Message.js"></script>
-	<link rel="icon" href="/static/images/favicon.png" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/q409640976/aouto-tuchuang@master/static/layui/css/layui.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/q409640976/aouto-tuchuang@master/static/css/mystyle.css">
+    <script src="https://cdn.jsdelivr.net/gh/q409640976/aouto-tuchuang@master/static/js/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/q409640976/aouto-tuchuang@master/static/js/Message.js"></script>
+	<link rel="icon" href="https://cdn.jsdelivr.net/gh/q409640976/aouto-tuchuang@master/favicon.ico" />
 </head>
 <body>
     <div id="left-gg"></div>
     <div id="right-gg"></div>
-    <div class="header">
-        <div class="layui-container">
-            <div class="layui-row">
-                <div class="layui-col-lg12">
-                    
-                    <div class="layui-hide-xs menu">
-                        <ul class="layui-nav" lay-filter="">
-                            <li class="layui-nav-item"><a id="alert2"><i class="layui-icon"></i> 使用协议</a></li>
-                        <span class="layui-nav-bar"></span></ul>
-                    </div>
-                    <div class="menu layui-hide-lg layui-hide-md layui-hide-sm">
-                        <ul class="layui-nav" lay-filter="">
-                            <li class="layui-nav-item"><a id="alert"><i class="layui-icon"></i> 使用协议</a></li>
-                        <span class="layui-nav-bar" style="left: 62.9375px; top: 55px; width: 0px; opacity: 0;"></span></ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
     <!-- 顶部导航栏END --><div class="layui-container">
     <div class="layui-row">
         <!-- 首页主要区域 -->
         <div class="layui-col-lg12">
             <div id="main">
+                <div class="alert alert-warning" role="alert">
+                    <span class="alert-inner--icon"><i class="layui-icon"></i></span>
+                    <span class="alert-inner--text">单文件10M,支持图片/压缩文件/常见格式</span>
+                </div>
                 <!-- 上传区域 -->
                 <div class="layui-form-item">
                 
@@ -104,9 +89,9 @@
         </div>
     </div>
 </div>
-<script src="./static/layui/layui.js"></script>
-    <script src="./static/js/embed.js"></script>
-    <script src="./static/js/clipBoard.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/q409640976/aouto-tuchuang@master/static/layui/layui.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/q409640976/aouto-tuchuang@master/static/js/embed.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/q409640976/aouto-tuchuang@master/static/js/clipBoard.min.js"></script>
     <script> document.getElementById('alert').onclick = function () { alert('<ul><li>不得上传色情、暴力、政治的内容</li><li>不得上传侵犯版权、隐私权的内容</li><li>违反规定直接删除图片不另行通知</li><li>所有图片仅供网站内部使用</li></ul>') } </script>
     <script> document.getElementById('alert2').onclick = function () { alert('<ul><li>不得上传色情、暴力、政治的内容</li><li>不得上传侵犯版权、隐私权的内容</li><li>违反规定直接删除图片不另行通知</li><li>所有图片仅供网站内部使用</li></ul>') } </script>	
 </body>

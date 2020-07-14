@@ -75,7 +75,7 @@ function handleres(res,index){
                 $("#html").val("<img src = '' />");   
             }
             $("#url").val(res.data.url);
-            $("#urlimg").val(" <img src='" + res.data.url + "' alt='" + res.data.filename + "'>");
+            $("#urlimg").val("<img src='" + res.data.url + "' alt='" + res.data.filename + "'>");
             $("#html").val("<img src = '" + res.data.url + "' />");
             $("#markdown").val("![" + res.data.filename + "](" + res.data.url + " '" + res.data.filename + "')");
             $("#bbcode").val("[img]" + res.data.url + "[/img]");
