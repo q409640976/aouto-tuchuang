@@ -37,7 +37,7 @@ define("USER","1111");//你的GitHub/Gitee的用户名
 
 
 
-define("MAIL","admin@stacitfiles.com");//邮箱无所谓，随便写
+define("MAIL","admin@my.com");//邮箱无所谓，随便写
 define("QIANZHUI",'2222-');
 define("TOKEN","3333");
 // Github 去这个页面 https://github.com/settings/tokens生成一个有写权限的token（repo：Full control of private repositories 和write:packages前打勾）
